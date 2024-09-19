@@ -1,0 +1,32 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactsAppMAUI.Views.Pages.ContactDetailsPage"
+             Title="Contact Details"
+             xmlns:vm="clr-namespace:ContactsAppMAUI.ViewModels"
+             x:DataType="vm:ContactDetailsPageViewModel">
+
+    <VerticalStackLayout Padding="10">
+        <TableView Intent="Data" >
+                <TableSection Title="Contact Information" TextColor="{DynamicResource TextColor}">
+                    <EntryCell Label="First Name"
+                               LabelColor ="{DynamicResource TextColor}"
+                               Text="{Binding SimpleContact.FirstName, Mode=TwoWay}"/>
+                    <EntryCell Label="Last Name"
+                               LabelColor ="{DynamicResource TextColor}"
+                               Text="{Binding SimpleContact.LastName, Mode=TwoWay}"/>
+                    <EntryCell Label="Phone Number" LabelColor ="{DynamicResource TextColor}"
+                               Text="{Binding SimpleContact.PhoneNumber, Mode=TwoWay}"/>
+                    <EntryCell Label="Address" LabelColor ="{DynamicResource TextColor}"
+                               Text="{Binding SimpleContact.Address, Mode=TwoWay}"/>
+                    <SwitchCell Text="Is Favourite"
+                                On="{Binding SimpleContact.IsFav, Mode=TwoWay}"/>
+                </TableSection>
+        </TableView>
+        <Button Text="Save Changes"
+                Command="{Binding SaveCommand}"
+                Margin="10"/>
+        <Button Text="Delete Contact"
+                Command="{Binding DeleteCommand}"
+                Margin="10"/>
+    </VerticalStackLayout>
+</ContentPage>

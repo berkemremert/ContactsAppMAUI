@@ -1,0 +1,72 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ContactsAppMAUI
+build_property.ProjectDir = /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Resources/Styles/Dark.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Resources.Styles.Dark.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Dark.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Dark.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Resources/Styles/Light.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Resources.Styles.Light.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Light.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Light.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Views/Pages/ContactDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Views.Pages.ContactDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Pages/ContactDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Pages/ContactDetailsPage.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Views/Pages/ContactListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Views.Pages.ContactListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Pages/ContactListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Pages/ContactListPage.xaml
+
+[/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/Views/Pages/SettingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ContactsAppMAUI.Views.Pages.SettingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Pages/SettingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Pages/SettingPage.xaml

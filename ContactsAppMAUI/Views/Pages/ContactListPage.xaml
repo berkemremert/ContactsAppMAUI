@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactsAppMAUI.Views.Pages.ContactListPage"
+             Title="Contacts"
+             xmlns:vm="clr-namespace:ContactsAppMAUI.ViewModels"
+             xmlns:models="clr-namespace:ContactsAppMAUI.Models"
+             x:DataType="vm:ContactsViewModel">
+
+    <FlexLayout Direction="{OnPlatform Default='Column', iOS='Column', Android='Column', MacCatalyst='Row'}">
+        <Frame Margin="5" Padding="5" FlexLayout.Basis="1000">
+            <VerticalStackLayout Padding="10">
+                <Entry Placeholder="First Name" 
+                       Text="{Binding SimpleContact.FirstName}"/>
+                <Entry Placeholder="Last Name" 
+                       Text="{Binding SimpleContact.LastName}" />
+                <Entry Placeholder="Phone Number" 
+                       Text="{Binding SimpleContact.PhoneNumber}" />
+                <Entry Placeholder="Address" 
+                       Text="{Binding SimpleContact.Address}" />
+                
+                <HorizontalStackLayout>
+                    <Label Text="Favourite" Margin="12"/>
+                    <Switch IsToggled="{Binding SimpleContact.IsFav}" />
+                </HorizontalStackLayout>
+
+                <Button Text="Add Contact" 
+                        Margin="10" 
+                        Command="{Binding AddCommand}" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <ListView FlexLayout.Grow="1" 
+                  ItemsSource="{Binding SimpleContacts}" 
+                  ItemTapped="ListView_ItemTapped">
+            <ListView.Header>
+                <VerticalStackLayout Padding="5">
+                    <Label HorizontalOptions="Center" 
+                           Text="Contacts" 
+                           FontAttributes="Bold" />
+                </VerticalStackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:SimpleContact">
+                    <TextCell Text="{Binding FirstName}" 
+                              Detail="{Binding PhoneNumber}" 
+                              TextColor="{DynamicResource TextColor}"
+                              DetailColor="{DynamicResource TextColor}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </FlexLayout>
+</ContentPage>

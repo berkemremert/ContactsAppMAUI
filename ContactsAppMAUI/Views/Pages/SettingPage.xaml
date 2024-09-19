@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ContactsAppMAUI.ViewModels"
+             x:Class="ContactsAppMAUI.Views.Pages.SettingPage"
+             BackgroundColor="{DynamicResource BackgroundColor}">
+
+    <ContentPage.BindingContext>
+        <vm:SettingsViewModel />
+    </ContentPage.BindingContext>
+    
+    <ScrollView Padding="20">
+        <VerticalStackLayout>
+
+            <Label Text="Theme" />
+            <Picker ItemsSource="{Binding Themes}"
+                    SelectedItem="{Binding SelectedTheme}"
+                    ItemDisplayBinding="{Binding Name}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

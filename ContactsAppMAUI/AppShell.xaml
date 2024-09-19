@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ContactsAppMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ContactsAppMAUI"
+    Shell.FlyoutBehavior="Flyout"
+    Title="ContactsAppMAUI">
+
+    <ShellContent
+        Title = "Contacts"
+        ContentTemplate = "{DataTemplate local:Views.Pages.ContactListPage}"
+        Route ="Views.Pages.ContactListPage" /> 
+
+    <ShellContent
+        Title = "Settings"
+        ContentTemplate = "{DataTemplate local:Views.Pages.SettingPage}"
+        Route ="Views.Pages.SettingPage" /> 
+
+
+</Shell>

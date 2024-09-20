@@ -8,7 +8,7 @@
              x:DataType="vm:ContactsViewModel">
 
     <FlexLayout Direction="{OnPlatform Default='Column', iOS='Column', Android='Column', MacCatalyst='Row'}">
-        <Frame Margin="5" Padding="5" FlexLayout.Basis="1000">
+        <Frame Margin="5" Padding="5" FlexLayout.Basis="600">
             <VerticalStackLayout Padding="10">
                 <Entry Placeholder="First Name" 
                        Text="{Binding SimpleContact.FirstName}"/>

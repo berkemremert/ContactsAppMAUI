@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactsAppMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f5e3fffbf87d08d1645286cac756c3c34aa4d09a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactsAppMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactsAppMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -303,6 +303,7 @@
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ContactsAppMAUI.genruntimeconfig.cache
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/ContactsAppMAUI.dll
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Mvvm.dll
+/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ContactsAppMAUI.sourcelink.json
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/CommunityToolkit.Mvvm.stamp
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.CSharp.stamp
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp

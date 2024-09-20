@@ -1051,3 +1051,4 @@
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/berkemremert/Documents/DotNetProjects/ContactsAppMAUI/ContactsAppMAUI/obj/Debug/net8.0-android/ContactsAppMAUI.sourcelink.json

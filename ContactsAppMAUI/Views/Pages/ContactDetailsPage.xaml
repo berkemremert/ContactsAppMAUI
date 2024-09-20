@@ -7,7 +7,7 @@
 
     <VerticalStackLayout Padding="10">
         <TableView Intent="Data" >
-                <TableSection Title="Contact Information" TextColor="{DynamicResource TextColor}">
+                <TableSection Title="Contact Information" TextColor="Red">
                     <EntryCell Label="First Name"
                                LabelColor ="{DynamicResource TextColor}"
                                Text="{Binding SimpleContact.FirstName, Mode=TwoWay}"/>
